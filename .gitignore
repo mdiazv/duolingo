@@ -1,0 +1,11 @@
+# local files
+cookies.txt
+env.sh
+
+# python stuff
+__pycache__
+.env
+
+# vim buffers
+*.swp
+*.swo
