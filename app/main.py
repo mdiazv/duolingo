@@ -50,7 +50,7 @@ class Duolingo:
 user = os.getenv('DUOLINGO_USER')
 password = os.getenv('DUOLINGO_PASSWORD')
 with Duolingo() as D:
-    D.login(user, passwd)
+    D.login(user, password)
     ss = D.get_stories()
     print (ss)
     s = D.get_random_story()

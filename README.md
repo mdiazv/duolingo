@@ -9,3 +9,17 @@ This project is an experiment which aims to explore how far can I go in modeling
 This code and lead to use Duolingo in a way that might be considered cheating. So use it at your own risk.
 I don't intend to use it to farm XP, but as an investigation project.
 All tests are performed on a new Duolingo account and never on my real account which I use everyday :)
+
+## Requirements
+
+Navigation is powered by selenium webdriver and currently supports Google Chrome, so a working installation of [ChromeDriver](https://chromedriver.chromium.org/downloads) is required
+
+## Running
+
+Until a more decent mechanism is implemented:
+```bash
+python -m venv .env
+. .env/bin/activate
+pip install -r requirements.txt
+python app/main.py
+```
